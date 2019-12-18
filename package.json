@@ -1,0 +1,23 @@
+{
+  "name": "2020.zozo.jp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "PARCEL_AUTOINSTALL=false parcel ./src/index.pug  --no-autoinstall",
+    "build": "parcel ./src/index.pug"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "repository": "",
+  "private": true,
+  "devDependencies": {
+    "parcel": "^1.12.3",
+    "pug": "^2.0.4",
+    "sass": "^1.23.7",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "reset-css": "^5.0.1"
+  }
+}
